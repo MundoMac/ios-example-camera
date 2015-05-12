@@ -81,13 +81,9 @@
 		F136E4151AF9699D00CE19CB /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				F136E41A1AF9699D00CE19CB /* AppDelegate.h */,
-				F136E41B1AF9699D00CE19CB /* AppDelegate.m */,
 				F136E41D1AF9699D00CE19CB /* ViewController.h */,
 				F136E41E1AF9699D00CE19CB /* ViewController.m */,
 				F136E4201AF9699D00CE19CB /* Main.storyboard */,
-				F136E4231AF9699D00CE19CB /* Images.xcassets */,
-				F136E4251AF9699D00CE19CB /* LaunchScreen.xib */,
 				F136E4161AF9699D00CE19CB /* Supporting Files */,
 			);
 			path = Camera;
@@ -96,6 +92,10 @@
 		F136E4161AF9699D00CE19CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F136E41A1AF9699D00CE19CB /* AppDelegate.h */,
+				F136E41B1AF9699D00CE19CB /* AppDelegate.m */,
+				F136E4231AF9699D00CE19CB /* Images.xcassets */,
+				F136E4251AF9699D00CE19CB /* LaunchScreen.xib */,
 				F136E4171AF9699D00CE19CB /* Info.plist */,
 				F136E4181AF9699D00CE19CB /* main.m */,
 			);
@@ -168,6 +168,7 @@
 				TargetAttributes = {
 					F136E4121AF9699D00CE19CB = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = AF2B5MC2QB;
 					};
 					F136E42B1AF9699D00CE19CB = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -347,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +419,7 @@
 				F136E4381AF9699D00CE19CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F136E4391AF9699D00CE19CB /* Build configuration list for PBXNativeTarget "CameraTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +428,7 @@
 				F136E43B1AF9699D00CE19CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
